@@ -4,6 +4,7 @@
     - [Screenset](screenset.md)
     - [UI Builder](ui-builder.md)
     - [Postman Bundle](postman.md)
+    - [CDC Use by Sites](usage.md)
     - [SAML](saml.md)
 - Customer Identity
     - [Site Groups & Single Sign On](/customer-identity/sso)
@@ -21,3 +22,5 @@
     - [Server Side SDKs](/apis-and-sdks/server-side-sdks)
 - Troubleshooting
     - [Most Common Issues](/troubleshooting/common)
+    - [Console](troubleshooting/console)
+    - [Error Codes](/troubleshooting/codes)

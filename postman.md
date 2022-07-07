@@ -84,6 +84,10 @@ curl https://accounts.us1.gigya.com/accounts.search
 --data-urlencode "query=select UID, identities.provider, identities.providerUID from accounts limit 10"
 ```
 
+# GIGYA API Tool
+
+GIGYA has their own API tool to make requests like from Curl or the terminal. Check it out and try to make a request from here: [Gigya API Tool](https://tools.gigya-cs.com/api/).
+
 # Creating a Full Account in CDC from Postman
 
 > Make sure you complete all the steps from the Authorization section & Postman Bundle right above before doing this.

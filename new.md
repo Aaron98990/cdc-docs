@@ -40,9 +40,9 @@ For Capgemini employees, join the [Customer Data Global Community](https://teams
     - Includes [Certification Textbook](/C4H620_Textbook.pdf)
 - CX Works (expert guidance, project frameworks, strategic guidance)
 
-Start in the Global Community please watch the 10_Overview > Files > Webinars > 2022 May - 4Steps2CDC Program which was hosted by SAP. The program should take a week to complete. Make sure to poke around CDC and do the exercises.
+Start in the Global Community please watch the 10_Overview > Files > Webinars > 2022 May - 4Steps2CDC Program which was hosted by SAP. The program should take **one week** to complete. Make sure to poke around CDC and do the exercises.
 
-Next, in the Global community complete the exercise located in 10_Overview > Files > Training Material > Onboarding Use Case > CDC Onboarding.zip, this should take a week to complete and many challenge can be expected.
+Next, in the Global community complete the exercise located in 10_Overview > Files > Training Material > Onboarding Use Case > CDC Onboarding.zip, this should take **three weeks** to complete and many challenges can be expected.
 
 
 ## Certification
