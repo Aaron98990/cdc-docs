@@ -9,11 +9,10 @@
     - [SAML](/customer-identity/saml)
 - APIs and SDKs
     - [Web SDK](/apis-and-sdks/web-sdk)
-    - [Android SDK](/apis-and-sdks/android-sdk)
-    - [iOS SDK](/apis-and-sdks/ios-sdk)
+    - [Mobile SDK](/apis-and-sdks/mobile-sdk)
     - [REST API](/apis-and-sdks/rest-api)
-    - [Server Side SDKs](/apis-and-sdks/server-side-sdks)
 - Troubleshooting
     - [Most Common Issues](/troubleshooting/common)
     - [Console](troubleshooting/console)
     - [Error Codes](/troubleshooting/codes)
+    - [Issue & Resolution](/troubleshooting/issue-and-resolution)
