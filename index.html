@@ -8,16 +8,39 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+
+<!-- Custom theme styles -->
+<style>
+  .content {
+    padding-top: 0;
+      }
+    p {
+      line-height: 1.5rem !important;
+    }
+
+    code {
+      line-height: 16px !important;
+    }
+
+    .markdown-section{
+      max-width: min(90%, 800px);
+    }
+
+    .sidebar .sidebar-nav {
+    line-height: 1.5em;
+    }
+</style>
 </head>
 
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Capgemini SAP CDC Documentation',
       repo: 'https://github.com/Aaron98990/cdc-docs',
       loadSidebar: true,
-      subMaxLevel: 2,
+      maxLevel: 2,
+      subMaxLevel: 1,
       auto2top: true,
       notFoundPage: '_404.md',
       autoHeader: true,
@@ -26,7 +49,8 @@
         formatUpdated: "{YYYY}/{MM}/{DD}",
       },
       crossChapter: true,
-      crossChapterText: true
+      crossChapterText: true,
+      themeColor: '#3F51B5',
     }
   </script>
 

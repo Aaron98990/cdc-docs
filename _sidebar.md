@@ -1,19 +1,12 @@
 - [Home](/)
 - New to CDC
-    - [Start Here](new.md)
-    - [Screenset](screenset.md)
-    - [UI Builder](ui-builder.md)
-    - [Postman Bundle](postman.md)
-    - [CDC Use by Sites](usage.md)
-    - [SAML](saml.md)
+    - [Start Here](start-here/new.md)
+    - [Screenset](start-here/screenset.md)
+    - [Postman Bundle](start-here/postman.md)
 - Customer Identity
     - [Site Groups & Single Sign On](/customer-identity/sso)
     - [Social Login](/customer-identity/social-login)
     - [SAML](/customer-identity/saml)
-    - [OpenID Connect](/customer-identity/oidc)
-    - [Risk-Based Authentication](/customer-identity/rba)
-    - [FIDO](/customer-identity/fido)
-    - [CAPTCHA](/customer-identity/captcha)
 - APIs and SDKs
     - [Web SDK](/apis-and-sdks/web-sdk)
     - [Android SDK](/apis-and-sdks/android-sdk)

@@ -28,18 +28,12 @@ More often than not, we will focus on GIGYA's error Codes rather than the HTTP R
 
 
 # Other things to know
-
-Remember a post request does not use query parameters but uses the body!
-
-Path Variables (?id=5&name=sarah) vs Query Params (/:id/:name)
-
-These are Endpoints -> /id  /orders
-
-Request Authorization (Bearer Token, Basic Auth)
-
-Headers (Content-Type)
-
-Postman Variables {{baseUrl}} – Set in the Collection
+- Remember a post request does not use query parameters but uses the body!
+- Path Variables (?id=5&name=sarah) vs Query Params (/:id/:name)
+- These are Endpoints -> /id  /orders
+- Request Authorization (Bearer Token, Basic Auth)
+- Headers (Content-Type)
+- Postman Variables {{baseUrl}} – Set in the Collection
 
 
 
@@ -63,11 +57,11 @@ Making API calls requires an API key and a Secret or userKey/secret pair which a
 
 Click the collection, probably named CDC B2C Requests. Then click variables. Please, input the variables from your console in here. Initial & Current Values should be the same. Make sure to save this!
 
-![The variables](/assets/variables.png "The variables.")
+![The variables](/../assets/variables.png "The variables.")
 
 The great thing is not that all these fields are pre-populated. If you haver over a variable {{variableName}}, you can see the value.
 
-![The variables](/assets/variables2.png "The variables.")
+![The variables](/../assets/variables2.png "The variables.")
 
 > If you ever don't need a field for a request, like `isLite` above, uncheck. Do not delete it from the collection.
 
