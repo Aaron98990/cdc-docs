@@ -37,8 +37,10 @@ For Capgemini employees, join the [Customer Data Global Community](https://teams
 - Engagement Program (upcoming SAP CX Webinars/Programs for Quarter)
 - Microlearning Videos
 - Learning Journey (steps to do a certifications)
-    - Includes [Certification Textbook](/C4H620_Textbook.pdf)
+    - Includes [Certification Textbook](/assets/C4H620_Textbook.pdf)
 - CX Works (expert guidance, project frameworks, strategic guidance)
+
+
 
 Start in the Global Community please watch the 10_Overview > Files > Webinars > 2022 May - 4Steps2CDC Program which was hosted by SAP. The program should take **one week** to complete. Make sure to poke around CDC and do the exercises.
 
