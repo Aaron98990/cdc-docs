@@ -72,3 +72,26 @@ The screensets are loaded from SAP CDC's server using the Web SDK [accounts.show
 ```
 
 This documentation is based off the [SAP Docs - Screen-set Hosted on SAP Customer Data Cloud Demo](https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD/8b8d6fffe113457094a17701f63e3d6a/416f995970b21014bbc5a10ce4041860.html)
+
+## UI Builder
+
+This will get you the purpose in the privacy policy:
+`{{schema.preferencesSchema.fields['privacy.awesomenames_pp'].legalS tatements[screenset.lang].purpose}}`
+
+In the purpose of the privacy policy you can include HTML. Replace the link inside the HREF with the terms of service.:
+`I accept the <a target="_blank" href="https://www.google.com/">Terms of Service</a>`
+
+You can put HTML in the label. Example `Welcome to <span style="color:red">your</span>`
+
+## Debugging
+
+No Error Message is Shown on Screens
+- Check that the form contains a “Form error” element
+- This element is used to display form-level errors
+
+Fields Disappear as Soon as Data is Entered
+- This can happen for elements with a “Visible When” attribute 
+- Make sure that the “Keep Visible” checkbox is ticked
+
+Any other issues
+- Compare to the default screensets and see what they did their.

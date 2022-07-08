@@ -6,7 +6,7 @@
 - Customer Identity
     - [Site Groups & Single Sign On](/customer-identity/sso)
     - [Social Login](/customer-identity/social-login)
-    - [SAML](/customer-identity/saml)
+    - [SAML](/customer-identity/federation)
 - APIs and SDKs
     - [Web SDK](/apis-and-sdks/web-sdk)
     - [Mobile SDK](/apis-and-sdks/mobile-sdk)
