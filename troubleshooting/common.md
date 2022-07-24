@@ -33,3 +33,4 @@ gigya.accounts.getSchema({callback: showSchemaInfo});
 The output will return the required fields that must be added to the Screen Completion screen. Also, double check that all fields are mapped correctly. It could have a label without being mapped in CDC.
 - Try on a different browser (Chrome, Firefox, Safari, Edge etc)
 - Clear out the cookies
+- If you tried all of these above, wait. It takes up to an hour for some chnges to be reflected on your site.

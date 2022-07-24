@@ -27,7 +27,7 @@ fidm.saml.cancelSSO JS
 fidm.saml.continueSSO JS
 fidm.saml.initSSO JS
 
-## Beginner Code
+### Beginner Code
 
 
 Cal the screenset with custom buttons like the one below.

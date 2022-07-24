@@ -1,6 +1,7 @@
 - [Home](/)
 - New to CDC
     - [Start Here](start-here/new.md)
+    - [Usage](start-here/usage.md)
     - [Screenset](start-here/screenset.md)
     - [Postman Bundle](start-here/postman.md)
 - Customer Identity

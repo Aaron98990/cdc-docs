@@ -15,6 +15,42 @@ Type the resolution here. Include small code snippets and images.
 
 ---
 
+## Is it required to do Certificate Provisioning for DEV, QA, UAT, PROD site groups.
+**Date** - 7/22/2022
+**Owner** - Aaron Feleke
+
+### Issue
+
+It came up if whether we can go thorugh the Certificate Provisioning Process in a site group then use the API Custom Domain on different site.
+
+### Resolution
+
+Sree recommends: Create a site group. Name it `certificateonly`. It's only purpose is to do the Certificate Provisioning Process on based on the Trusted URL sites. For all other sites, it can use the Custom API Domain Prefix based on the `certificateonly` site group. If you need to add another Trusted URL, add the trusted URL and go through the certificate provisioning process for the new site. No other changes are needed.
+
+If a site is not in the Trusted URL and not part of the Certificate Provisining, will screensets show: Yes OR No (i think no)
+Does it work to just have a base domain like feleke.xyz rather than doing Certificate Provisinong for a.feleke.xyz, b.fekeke.xyz, c.feleke.cyz: Yes OR No (i think yes)
+If there is a Custom API Domain Prefix for the Parent does it apply automatically to the child if for child sites where there no custom api domain prefix: YES OR NO (i think no)
+
+---
+
+## SAML not working where IP and SP are on different domains
+**Date** - July 22, 2022
+**Owner** - Aaron Feleke
+
+### Issue
+
+When doing SAML on Firefox (standard cookies) or Safari when the Identity Provider and Service Provider are on 2 different domains (feleke.xyz & google.com), the SAML handshake does not go through.
+
+### Resolution
+
+In Firefox, if you go to Preferences then Privacy & Security then under Enhanced Tracking Protection choose Custom and uncheck Cookies. This made SAML work but when it went back to standard, the SAML handshake did not work. In the future, if you suspect it is a Safari/Firefox issue go to Firefox and go through this proccess.
+
+To fix the issue, go through the [certificate provisioning prcess](https://help.sap.com/docs/SAP_CUSTOMER_DATA_CLOUD/8b8d6fffe113457094a17701f63e3d6a/41450ade70b21014bbc5a10ce4041860.html?q=certificate%20provisioning) and chang the Custom API Domain. When you open inspect in the browser, requests should go through the CNAME (if CNAME is login then go through login.feleke.xyz) not through GIGYA (us1.gigya.com - the image below). 
+
+![Picture](us1.png)
+
+---
+
 ## IDP Initiated Login Does Everything but Log in
 **Date** - July 7, 2022
 **Owner** - Aaron Feleke
