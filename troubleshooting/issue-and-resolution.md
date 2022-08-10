@@ -15,6 +15,50 @@ Type the resolution here. Include small code snippets and images.
 
 ---
 
+
+## SAML Redirects to non-existent page
+**Date** - 8/10/2022
+**Owner** - Aaron Feleke
+
+### Issue
+
+SAML redirects to a weird page like aaron/accounts with `.com` or `.org`
+
+### Resolution
+
+Change the site name to match the host website.
+
+---
+
+## SAML Issuer does not exist Error
+**Date** - 8/10/2022
+**Owner** - Aaron Feleke
+
+### Issue
+
+SAML Issue
+
+``` json
+{
+  "callId": "ee8fa3cb8bec45adbad0eaaed7968e64",
+  "errorCode": 400006,
+  "errorDetails": "Invalid argument: Issuer does not exist",
+  "errorMessage": "Invalid parameter value",
+  "apiVersion": 2,
+  "statusCode": 400,
+  "statusReason": "Bad Request",
+  "time": "2022-08-08T22:11:57.751Z"
+}
+```
+
+### Resolution
+
+Type the resolution here. Include small code snippets and images.
+
+---
+
+
+
 ## Is it required to do Certificate Provisioning for DEV, QA, UAT, PROD site groups.
 **Date** - 7/22/2022
 **Owner** - Aaron Feleke
