@@ -15,6 +15,21 @@ Type the resolution here. Include small code snippets and images.
 
 ---
 
+## SAML refuses to log in - stays on login page - unusual params
+**Date** - 9/7/2022
+**Owner** - Aaron Feleke
+
+### Issue
+
+In the SAML flow the page gets stuck on a wacky page that looks like this uat.sws.connect.simplot.com/b2b_login?startURL=%2Fapex%2Fb2b_proxy%3Fmode%3Dlogin%2626samlContext%3Dus1_387019230203_0ed0f9bb-b1c1-492e...
+Notice the %3D and %2F that is in an unusual form. When you attempt to login, there is no error message that says "Wrong Credentials". It just takes you back to the blank login page.
+
+### Resolution
+
+Inside Salesforce - I am in my sites in SF then I go to SWSConnect then I scroll down in the Site Vialforce Pages only b2b_login was being hit not b2b_login, b2b_logout, or b2b_proxy. This means it does not have permissions to touch the site within SalesForce and this was the reason it was not working. 
+
+---
+
 
 ## SAML Redirects to non-existent page
 **Date** - 8/10/2022
