@@ -12,6 +12,9 @@
     - [Web SDK](/apis-and-sdks/web-sdk)
     - [Mobile SDK](/apis-and-sdks/mobile-sdk)
     - [REST API](/apis-and-sdks/rest-api)
+- Integrations
+    - [Salesforce](/integrations/salesforce)
+    - [SAP Commerce](integrations/commerce)
 - Troubleshooting
     - [Most Common Issues](/troubleshooting/common)
     - [Console](troubleshooting/console)

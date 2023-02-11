@@ -15,6 +15,23 @@ Type the resolution here. Include small code snippets and images.
 
 ---
 
+
+## Provider Configuration Error After successful login from IDP
+**Date** - 2/10/2023
+**Owner** - Aaron Feleke
+
+### Issue
+
+For the IDP Proxy Page, I use a hosted Page.
+After loggin in successfully to IDP from hosted page, I am redirected to SP with a Provider Congfiguration Error (image below). accounts.socialLogin returns error Code of 400122 with error Message "Provider configuration error".
+![Provider Configuration Error](/provider-configuration-error.png)
+
+### Resolution
+
+To be figured...
+
+---
+
 ## SAML refuses to log in - stays on login page - unusual params
 **Date** - 9/7/2022
 **Owner** - Aaron Feleke
@@ -41,7 +58,9 @@ SAML redirects to a weird page like aaron/accounts with `.com` or `.org`
 
 ### Resolution
 
-Change the site name to match the host website.
+Change the site name / site domain in CDC (shown below) to match the host website.
+![Site domain](/site-domain.png)
+
 
 ---
 
