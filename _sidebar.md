@@ -3,6 +3,8 @@
     - [Start Here](start-here/new.md)
     - [Usage](start-here/usage.md)
     - [Screenset](start-here/screenset.md)
+    - [Audit Log](start-here/audit-log.md)
+    - [Invite Someone to the Console](start-here/administrators.md)
     - [Postman Bundle](start-here/postman.md)
 - Customer Identity
     - [Site Groups & Single Sign On](/customer-identity/sso)

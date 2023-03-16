@@ -95,3 +95,11 @@ Fields Disappear as Soon as Data is Entered
 
 Any other issues
 - Compare to the default screensets and see what they did their.
+
+## Network Tab
+
+Right click, click Inspect and look for the Network Tab. As you navigate through your screensets (submitting login credentials/updaing information) see which calls are made. This is a useful skill that you will need in the future to debug. 
+
+## Profiles
+
+If you are successful, open CDC and open "Profiles". See that your profile was made and that you are "Fully Registered". Try editing your profile in the CDC Console (e.g. change your first name) by clicking the pencil. 
